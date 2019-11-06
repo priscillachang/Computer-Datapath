@@ -629,11 +629,6 @@
       <a name="label" val="LoadSel"/>
       <a name="labelfont" val="SansSerif bold 6"/>
     </comp>
-    <comp lib="0" loc="(160,750)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="32"/>
-      <a name="label" val="INSTRUCTION"/>
-    </comp>
     <comp lib="0" loc="(370,860)" name="Tunnel">
       <a name="width" val="4"/>
       <a name="label" val="ALUSel"/>
@@ -849,6 +844,11 @@
       <a name="width" val="3"/>
       <a name="label" val="ImmSel"/>
       <a name="labelfont" val="SansSerif bold 6"/>
+    </comp>
+    <comp lib="0" loc="(160,750)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="instID"/>
     </comp>
   </circuit>
   <circuit name="BrCmp">
