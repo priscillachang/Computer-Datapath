@@ -7,7 +7,6 @@ divu ra s0 s1
 divu ra s0 t0
 divu ra s1 s0
 divu ra t0 s0
-divu ra s0 x0
 divu ra x0 s0
 divu ra s0 s0
 divu sp t0 t1
