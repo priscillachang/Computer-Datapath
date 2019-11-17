@@ -1,6 +1,6 @@
 jal x0 main
 
-done: li a0, 1
+done: addi a0 x0 1
 jalr x0 ra 0
 
 fun: beq a0 x0 done
