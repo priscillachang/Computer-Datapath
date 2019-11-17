@@ -8,6 +8,7 @@ slt ra t0 t1
 slt sp t1 t0
 slt t2 t1 s0
 slt t2 s0 t1
+
 addi s0 x0 2
 addi s1 x0 32
 addi a0 x0 0
@@ -32,4 +33,18 @@ addi a0 x0 0
 slt sp s1 a0
 addi a0 x0 33
 slt sp s1 a0
+addi a0 x0 -33
+slt sp s1 a0
+addi a0 x0 -128
+slt sp s1 a0
+addi a0 x0 -1
+slt sp s1 a0
+addi a0 x0 -32
+add t0 x0 a0
+addi a0 x0 0
+slt t1 t0 a0
+addi a0 x0 5
+slt t1 t0 a0
+addi a0 x0 -33
+slt t1 t0 a0
 
