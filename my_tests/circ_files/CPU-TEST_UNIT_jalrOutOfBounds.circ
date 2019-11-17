@@ -325,7 +325,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     </comp>
     <comp lib="0" loc="(1630,980)" name="Constant">
       <a name="width" val="16" />
-      <a name="value" val="0xae" />
+      <a name="value" val="0xa" />
     </comp>
     <comp lib="0" loc="(470,710)" name="Probe">
       <a name="radix" val="16" />
@@ -356,7 +356,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="addrWidth" val="14" />
       <a name="dataWidth" val="32" />
       <a name="contents">addr/data: 14 32
-02400293 004282E7 000282E7 000282E7 000282E7 008282E7 000282E7 000282E7 000282E7 000282E7 008282E7 000282E7 010282E7 004282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 FF8282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 004282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 FFC282E7 000282E7 000282E7 000282E7 008282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 000282E7 FF0282E7 000282E7 004282E7 000282E7 00000033 00000033 00000033 00000033
+00C0006F 008080E7 00000033 00400093 000080E7 00000033 00000033 00000033 00000033
 </a>
     </comp>
     <comp lib="0" loc="(1130,760)" name="Probe">
