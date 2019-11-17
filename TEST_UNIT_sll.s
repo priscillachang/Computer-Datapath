@@ -6,6 +6,7 @@ sll t0 s0 s0
 sll sp s0 x0
 sll sp s1 x0
 sll sp x0 s1
+
 addi s0 x0 2
 addi s1 x0 32
 addi a0 x0 0
@@ -30,16 +31,18 @@ addi a0 x0 0
 sll sp s1 a0
 addi a0 x0 33
 sll sp s1 a0
-addi a0 x0 3
+addi a0 x0 -33
 sll sp s1 a0
-addi a0 x0 7
+addi a0 x0 -128
 sll sp s1 a0
-addi a0 x0 90
+addi a0 x0 -1
 sll sp s1 a0
-addi a0 x0 41
+addi a0 x0 -32
 add t0 x0 a0
 addi a0 x0 0
 sll t1 t0 a0
 addi a0 x0 5
+sll t1 t0 a0
+addi a0 x0 -33
 sll t1 t0 a0
 
