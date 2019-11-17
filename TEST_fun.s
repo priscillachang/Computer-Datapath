@@ -9,10 +9,10 @@ addi a0 a0 -1
 sw ra 8(sp)
 sw a0 4(sp)
 sw s0 0(sp)
-jal fun
+jal ra fun
 add s0 x0 a0
 lw a0 4(sp)
-jal fun
+jal ra fun
 add a0 a0 s0
 lw s0 0(sp)
 lw ra 8(sp)
