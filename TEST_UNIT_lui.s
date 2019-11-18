@@ -4,10 +4,10 @@
 #lui t0 1
 #addi t1 x0 999
 
-lui t1 10234
-lui t2 999999
-#addi s0 s0 -1
-#lui s0 456
+#lui t1 10234
+#lui t2 999999
+addi s0 s0 -1
+lui s0 456
 #lui s1 0
 #addi s1 s1 999
 
