@@ -9,7 +9,3 @@ lw t1 0(sp)
 sw t1 0(sp)
 lw t1 0(sp)
 sw t1 0(sp)
-
-beq x0 x0 label1
-label1: beq x0 x0 label2
-label2: beq x0 x0 a
