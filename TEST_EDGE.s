@@ -8,19 +8,19 @@ addi sp sp -8
 sw a0 0(sp)
 sw t2 4(sp)
 
-add t0 x0 -1
+addi t0 x0 -1
 lb t0 0(sp)
-add s0 x0 -1
+addi s0 x0 -1
 lb s0 1(sp)
-add s1 x0 -1
+addi s1 x0 -1
 lb s1 2(sp)
-add s1 x0 -1
+addi s1 x0 -1
 lb s1 3(sp)
-add s0 x0 -1
+addi s0 x0 -1
 lh s0 0(sp)
-add t0 x0 -1
+addi t0 x0 -1
 lh t0 2(sp)
-add s0 x0 -1
+addi s0 x0 -1
 lw s0 0(sp)
 
 lb t0 4(sp)
